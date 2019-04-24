@@ -17,7 +17,6 @@ for($i=0; $i < $limit; $i++){
     $bike = new DBike;
     $bike->number=$i;
     $bike->name="Name $i";
-
     $listOfBikes[] = $bike;
 }
 
