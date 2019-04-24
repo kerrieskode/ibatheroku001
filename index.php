@@ -12,7 +12,7 @@ class DBike {
 $listOfBikes = [];
 $limit = getenv("LOOP");
 
-for($i=0; $i < 10; $i++){
+for($i=0; $i < $limit; $i++){
 
     $bike = new DBike;
     $bike->number=$i;
