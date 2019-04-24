@@ -10,6 +10,7 @@ class DBike {
 }
 
 $listOfBikes = [];
+$limit = getenv("LOOP");
 
 for($i=0; $i < 10; $i++){
 
